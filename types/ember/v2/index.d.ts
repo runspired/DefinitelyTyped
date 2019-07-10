@@ -3609,6 +3609,7 @@ declare module '@ember/debug' {
     import Ember from 'ember';
     export const assert: typeof Ember.assert;
     export const debug: typeof Ember.debug;
+    export const deprecate: typeof Ember.deprecate;
     export const inspect: typeof Ember.inspect;
     export const registerDeprecationHandler: typeof Ember.Debug.registerDeprecationHandler;
     export const registerWarnHandler: typeof Ember.Debug.registerWarnHandler;
